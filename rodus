@@ -25,6 +25,7 @@ function CreateMain(title)
 	Top.BorderSizePixel = 4
 	Top.Position = UDim2.new(0, 15, 0, 15)
 	Top.Size = UDim2.new(0, 193, 0, 27)
+        Top.Active,Top.Draggable = true,true
 
 	Title.Name = "Title"
 	Title.Parent = Top
